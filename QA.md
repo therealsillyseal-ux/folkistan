@@ -31,3 +31,7 @@ Build-time icon integration covers the app PE resource group, native window icon
 ## 0.1.4 update revision
 
 Fourteen Node tests passed, including seven updater-state tests. Native Linux regression passed for real webContents mute/unmute, background-tab controls, sleep/wake mute retention and closing tabs. Windows installer execution and a real installed-version-to-newer-version update remain untested. GitHub targeted secret-scanning service was unavailable because Advanced Security is not enabled; this is not a clean service scan result. Only an explicit source/assets whitelist is published, excluding all personal profiles and generated builds.
+
+## Published 0.1.4 build
+
+GitHub Actions Windows runner completed the NSIS build and published v0.1.4 with installer, blockmap and latest.yml. The downloaded 131,863,120-byte installer matches latest.yml SHA-512 and the GitHub asset SHA-256 (`0e19d10ad98e142e74c56aaa197abd7ac16db475b0338b4980cc5d7ccc206695`). This verifies build/publication and transfer integrity, not publisher authentication or Windows runtime behavior. Native Linux Settings also correctly disables updating in unsupported source builds. End-to-end Windows installation and upgrading to a newer version are still outstanding.
