@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><title>Folkistan</title><link rel="icon" type="image/png" href="assets/folkistan.png"><link rel="stylesheet" href="style.css"><script defer src="icons.js"></script><script defer src="preview.js"></script><script defer src="app.js"></script></head>
+<body>
+<aside class="sidebar" aria-label="Tabs and browser tools">
+  <div class="sidebar-title drag"><img class="app-mark wide" src="assets/folkistan.png" alt=""><strong class="wide">Folkistan</strong><button id="collapse-sidebar" class="icon-button" aria-label="Collapse sidebar" title="Collapse sidebar"></button></div>
+  <div class="tab-list-heading wide"><span>Tabs</span><span id="tab-count" aria-label="Number of open tabs">1</span></div>
+  <nav id="tabs" aria-label="Vertical tabs"></nav>
+  <button id="new-tab" class="new-tab"><span class="plus" aria-hidden="true"></span><span class="wide">New tab</span><kbd class="wide">Ctrl+T</kbd></button>
+  <div class="sidebar-bottom" role="toolbar" aria-label="Browser tools">
+    <button id="bookmarks" class="utility-button" title="Bookmarks" aria-label="Bookmarks"><span aria-hidden="true"></span></button>
+    <button id="sleep" class="utility-button" title="Sleep inactive tabs" aria-label="Sleep inactive tabs"><span aria-hidden="true"></span></button>
+    <button id="open-settings" class="utility-button" title="Settings" aria-label="Settings"><span aria-hidden="true"></span></button>
+  </div>
+</aside>
+<header class="topbar">
+ <div class="title-strip drag"><span id="page-caption">Folkistan — New tab</span><span id="preview-label" hidden>DESIGN PREVIEW</span><div class="window-buttons"><button id="minimize" aria-label="Minimize">−</button><button id="maximize" aria-label="Maximize">□</button><button id="quit" aria-label="Close window">×</button></div></div>
+ <div class="toolbar"><button id="back" class="icon-button" aria-label="Back">←</button><button id="forward" class="icon-button" aria-label="Forward">→</button><button id="reload" class="icon-button" aria-label="Reload">↻</button><form id="address-form"><span id="connection" title="Address information">⌕</span><input id="address" aria-label="Search or enter an address" placeholder="Search privately or enter a URL" autocomplete="off" spellcheck="false"><kbd>Ctrl L</kbd></form><button id="add-bookmark" class="icon-button" aria-label="Bookmark this page">☆</button><button id="shield" class="shield" title="Blocking and privacy settings"><span aria-hidden="true">◈</span><span id="blocked-small">0</span></button></div>
+</header>
+<main id="home" class="home">
+ <div class="home-top"><span class="newtab-caption">New tab</span><button id="home-customize" class="quiet-button">Customize</button></div>
+ <section class="welcome"><h1>Where to?</h1><form id="home-form" class="home-search"><span aria-hidden="true">⌕</span><input id="home-search" placeholder="Search or enter a website" aria-label="Search the web" autocomplete="off"><button aria-label="Search">↗</button></form><div class="search-note"><span id="search-provider">Search with DuckDuckGo</span> <span>·</span> No typing sent ahead</div>
+ <div class="shortcuts" aria-label="Website shortcuts"><button data-url="https://www.youtube.com"><span class="site-icon"><img class="brand-icon youtube" src="assets/youtube.svg" alt=""></span><span>YouTube</span></button><button data-url="https://github.com"><span class="site-icon"><img class="brand-icon" src="assets/github.svg" alt=""></span><span>GitHub</span></button><button data-url="https://www.wikipedia.org"><span class="site-icon"><img class="brand-icon" src="assets/wikipedia.svg" alt=""></span><span>Wikipedia</span></button><button data-url="https://www.reddit.com"><span class="site-icon"><img class="brand-icon" src="assets/reddit.svg" alt=""></span><span>Reddit</span></button></div>
+ <section class="saved-section" aria-labelledby="saved-title"><div class="saved-heading"><h2 id="saved-title">Bookmarks</h2><button id="home-bookmarks" class="quiet-button">View all</button></div><div id="home-saved"></div></section>
+ </section>
+ <footer class="home-footer"><div><span class="status-dot"></span><span id="blocking-label">Ad & tracker blocking</span><strong id="blocked-total">0 blocked this session</strong></div><div class="footer-right">Folkistan <span>EXPERIMENTAL BUILD</span></div></footer>
+</main>
+<section id="page-status" class="page-status" hidden><div class="spinner"></div><h2 id="status-title">Loading your page…</h2><p id="status-message"></p><button id="retry" class="primary">Try again</button></section>
+<dialog id="panel" aria-labelledby="panel-title"><div class="panel-heading"><div><span class="eyebrow">FOLKISTAN</span><h2 id="panel-title">Settings</h2></div><button id="panel-close" class="icon-button" aria-label="Close settings">×</button></div><div id="panel-body"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

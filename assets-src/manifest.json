@@ -1,0 +1,17 @@
+[
+  {
+    "source": "folkistan.png.base64",
+    "sha256": "faf249a499fd728a12e746ee8e69611292f61b81bd87ce5c95f1a3eda58cb517",
+    "outputs": [
+      "ui/assets/folkistan.png"
+    ]
+  },
+  {
+    "source": "icon.ico.base64",
+    "sha256": "05e8ba91a2fd7eac878f9af16c1a5428fc8cccb81ef8c5cad863e9e4f66c8652",
+    "outputs": [
+      "build/icon.ico",
+      "ui/assets/folkistan.ico"
+    ]
+  }
+]

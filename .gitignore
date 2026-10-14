@@ -1,0 +1,8 @@
+node_modules/
+release/
+*.log
+filters/easylist.txt
+filters/easyprivacy.txt
+build/icon.ico
+ui/assets/folkistan.png
+ui/assets/folkistan.ico

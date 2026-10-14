@@ -1,0 +1,75 @@
+{
+  "name": "folkistan",
+  "productName": "Folkistan",
+  "version": "0.1.4",
+  "description": "An experimental, privacy-minded Chromium browser for Windows.",
+  "main": "main.cjs",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "start": "npm run prepare:build && electron .",
+    "test": "node --test test/*.test.cjs",
+    "build:win": "npm run prepare:build && electron-builder --win nsis --x64 --publish never",
+    "build:win:folder": "npm run prepare:build && electron-builder --win dir --x64 --publish never",
+    "prepare:assets": "node scripts/prepare-assets.cjs",
+    "fetch:filters": "node scripts/fetch-filters.cjs",
+    "prepare:build": "npm run prepare:assets && npm run fetch:filters"
+  },
+  "dependencies": {
+    "@ghostery/adblocker-electron": "2.20.1",
+    "electron-updater": "6.8.9"
+  },
+  "devDependencies": {
+    "electron": "44.7.2",
+    "electron-builder": "26.15.3",
+    "resedit": "3.1.0"
+  },
+  "build": {
+    "appId": "org.folkistan.browser",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "lib/**/*",
+      "ui/**/*",
+      "filters/**/*",
+      "package.json",
+      "README.md",
+      "PRIVACY.md",
+      "LICENSE",
+      "THIRD_PARTY.md"
+    ],
+    "win": {
+      "target": "nsis",
+      "signAndEditExecutable": false,
+      "icon": "build/icon.ico"
+    },
+    "compression": "normal",
+    "afterPack": "scripts/embed-windows-icon.cjs",
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowElevation": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": false,
+      "artifactName": "Folkistan-Setup-${version}-x64.exe",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "therealsillyseal-ux",
+      "repo": "folkistan",
+      "releaseType": "release"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealsillyseal-ux/folkistan.git"
+  }
+}

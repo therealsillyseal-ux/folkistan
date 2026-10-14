@@ -1,0 +1,137 @@
+[
+  {
+    "name": "sidebar",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/panel-left.svg",
+    "sha256": "029f67b9e3eeb7ddf7c7c499b174c50388725e8ea50d4ea59ed7dbaf8d61cb82"
+  },
+  {
+    "name": "search",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/search.svg",
+    "sha256": "283d371c2e433817bb9c0c8310caa6c77fa4177c0f4f1168d9c83b97af7389dc"
+  },
+  {
+    "name": "reload",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/rotate-cw.svg",
+    "sha256": "ddcfe6d87240475946935e77411cd4d15a06f3d28a9b921bafed224ebe953668"
+  },
+  {
+    "name": "moon",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/moon.svg",
+    "sha256": "205b959e940d5841f0ce1d09c933153da9d9c94130a54d5cc0c68c2af1d403da"
+  },
+  {
+    "name": "shield",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-check.svg",
+    "sha256": "8d4fcdbde5bba4abb1a2f6fe53e37ceb6343a1d5449a9d88f6f97c1971d26c4e"
+  },
+  {
+    "name": "home",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/house.svg",
+    "sha256": "28216c479005731ef5e382e7d8627eda2b129b019eb1f3d9de9f5915576d448e"
+  },
+  {
+    "name": "settings",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/settings-2.svg",
+    "sha256": "06d06c191bd7eb28afaf9d40acb5c49ef69448fdeda91801d9823d7c440a4e10"
+  },
+  {
+    "name": "star",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/star.svg",
+    "sha256": "c59da86b889569387db28e69ad00a89f96af22863ad9eea9aa12c4876a14338c"
+  },
+  {
+    "name": "lock",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/lock-keyhole.svg",
+    "sha256": "fc0b8b7590d1d9e9bb0112c5c2e15a78ade0bfeca6d6f8c79fbbe149236d74be"
+  },
+  {
+    "name": "back",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/arrow-left.svg",
+    "sha256": "c5f4b88076108eb1a0d95336e1aa7e7bb1419a3a92af96f6247d88cd3456f933"
+  },
+  {
+    "name": "forward",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/arrow-right.svg",
+    "sha256": "288397fdb73bb4f783cf9eabb726ff47357df1d4e3f1201dd748090579f108b9"
+  },
+  {
+    "name": "close",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/x.svg",
+    "sha256": "4a9cdab38fbb96162e7dace28e33f4ca0e49d8963a6162abc3d4691b7d675117"
+  },
+  {
+    "name": "plus",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/plus.svg",
+    "sha256": "7f6af73bf1ff6c4bca3f18351c8d1bdec6749c0c2530c4de5da85d520c21df17"
+  },
+  {
+    "name": "arrow",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/arrow-up-right.svg",
+    "sha256": "50b2503b9d11881142255466b7e3461d022b919735841c321d72003ac9959fe1"
+  },
+  {
+    "name": "download",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/download.svg",
+    "sha256": "3daeee13ded5a3afa2198b1bb4e2262d163922f97d96ac6ff9953e8ed4fe039d"
+  },
+  {
+    "name": "bookmark",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bookmark.svg",
+    "sha256": "1d5023760db81f21c3b5a63f012ef540acc01932731c733e4645012a876d39f4"
+  },
+  {
+    "name": "youtube",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg",
+    "sha256": "5038808acbbc4e6edda16cbeb1cc6dec80e4e4ee4e227e039c41229fa222aa8c"
+  },
+  {
+    "name": "github",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg",
+    "sha256": "3bf8cceead820aec50d4ee825a3fd02c5a1cd6665cc9cf4cbf3d9c8861a204bb"
+  },
+  {
+    "name": "wikipedia",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/wikipedia.svg",
+    "sha256": "2b2acdcf513d7e4d4d6a137bc047d64162ab55955602a01984edf81019efa9f4"
+  },
+  {
+    "name": "reddit",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/reddit.svg",
+    "sha256": "00e5008d56567543cf956561e61d5bf9bf629f520c7488a4d9a00164c29dd8ba"
+  },
+  {
+    "name": "duckduckgo",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/duckduckgo.svg",
+    "sha256": "82648474f6ddd359747a4bdb843b326bca081d6c0fa15230d0fe3451d2316d63"
+  },
+  {
+    "name": "firefoxbrowser",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/firefoxbrowser.svg",
+    "sha256": "5bb2f58d6b27b191af5d7793016b06de8ae571120f4f1d530c235b350ae83371"
+  },
+  {
+    "name": "googlechrome",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlechrome.svg",
+    "sha256": "ce2ff9d2a010ed24f821ef34e40dc125d2bdf1dd28f42ded7b6017585b73c1dd"
+  },
+  {
+    "name": "brave",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/brave.svg",
+    "sha256": "e32e023dbc07334bb967b1eafc8bca1ce184512b259f31edc71fa7d4a918e462"
+  },
+  {
+    "name": "audio",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/audio-lines.svg",
+    "sha256": "3942b8a5d6bccc927a55f857f0d44b90e2663470cd2d569000c9b60c37578dfa"
+  },
+  {
+    "name": "muted",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/volume-x.svg",
+    "sha256": "f382e421b7aae01172989f2b749ee87e44c0c82c16970b13a9ad5a323b613be0"
+  },
+  {
+    "name": "globe",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg",
+    "sha256": "82c6b8fa0b8e8d775ec9becd86f74a4e50bff7bee4c81f7362de45348504f14d"
+  }
+]
