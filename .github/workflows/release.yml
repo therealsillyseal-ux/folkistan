@@ -42,7 +42,17 @@ jobs:
         if: steps.version.outputs.exists != 'true'
         env:
           ELECTRON_BUILDER_COMPRESSION_LEVEL: '3'
-        run: npm run build:win
+        shell: pwsh
+        run: |
+          npm run build:win *> build-diagnostic.log
+          $result = $LASTEXITCODE
+          Get-Content build-diagnostic.log
+          if ($result -ne 0) {
+            $tail = (Get-Content build-diagnostic.log | Select-Object -Last 45) -join "`n"
+            $tail = $tail.Replace('%','%25').Replace("`r",'%0D').Replace("`n",'%0A')
+            Write-Output "::error title=Windows packaging diagnostic::$tail"
+            exit $result
+          }
       - name: Publish installer, blockmap and latest.yml together
         if: steps.version.outputs.exists != 'true'
         shell: pwsh
